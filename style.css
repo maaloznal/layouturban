@@ -1,11 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .navbar {
-  outline: 1px solid red;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   height: 142px;
   padding: 30px 200px;
 }
@@ -20,7 +21,6 @@ body {
 .navbar-brand-container {
   padding-left: 2px;
   padding-bottom: 37px;
-  outline: 1px solid red;
   display: flex;
   flex-direction: column;
   width: 73.204px;
@@ -57,7 +57,6 @@ body {
   line-height: normal;
   font-size: 18px;
   padding: 3px;
-  outline: 1px solid red;
   display: inline-block;
 }
 
@@ -83,7 +82,6 @@ a.text-a {
   padding-bottom: 5px;
   margin: 5px;
   padding-top: 7px;
-  outline: 1px solid red;
   display: flex;
   align-items: flex-start;
   gap: 100px;
@@ -94,4 +92,37 @@ a.text-a {
   height: 29px;
   align-items: flex-start;
   gap: 20px;
+}
+
+.image-section {
+  position: relative;
+}
+
+
+.image-section .image-text-1 {
+  position: absolute;
+  top: 50%;
+  left: 39.3%;
+  transform: translate(-50%, -50%);
+  width: 789.507px;
+  color: var(--White, #fff);
+  font-family: Cormorant;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.image-text-2 {
+  position: absolute;
+  top: 78.9%;
+  left: 31.7%;
+  transform: translate(-50%, -50%);
+  width: 557.651px;
+  color: var(--White, #fff);
+  font-family: Cormorant;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
