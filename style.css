@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  outline: 1px solid red;
+  width: 1200px;
+  height: 142px;
+  padding: 30px 200px;
+}
+
+.navbar .container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand-container {
+  padding-left: 2px;
+  padding-bottom: 37px;
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 73.204px;
+  height: 105px;
+}
+
+.navbar-brand-img {
+  width: 68.408px;
+  height: 85.035px;
+}
+
+.navbar-brand-text {
+  width: 73.204px;
+  height: 21.444px;
+  color: var(--Black, #151618);
+  font-family: "IM FELL Great Primer SC";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 71px;
+  margin-bottom: 18px;
+}
+
+.navbar-menu li {
+  color: var(--Black, #151618);
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 18px;
+  padding: 3px;
+  outline: 1px solid red;
+  display: inline-block;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  padding: 33px;
+  padding-right: 30px;
+  display: flex;
+  height: 27px;
+  align-items: center;
+}
+
+a.text-a {
+  width: 50px;
+}
+
+.navbar-wrap {
+  display: flex;
+  flex-flow: nowrap;
+}
+
+.navbar-buttons-container {
+  padding-bottom: 5px;
+  margin: 5px;
+  padding-top: 7px;
+  outline: 1px solid red;
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.first-two-icons {
+  display: flex;
+  height: 29px;
+  align-items: flex-start;
+  gap: 20px;
+}
