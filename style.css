@@ -127,9 +127,9 @@ a.text-a {
 }
 
 .tea-description-text {
-  display: inline-block; /* Изменим на inline-block, чтобы текст мог быть выровнен по центру */
-  padding: 9rem 28rem; /* Сохраним паддинг */
-  width: 44rem; /* Сохраним ширину */
+  display: inline-block; 
+  padding: 9rem 28rem; 
+  width: 44rem; 
   text-align: center;
   color: var(--Black, #151618);
   font-family: Cormorant;
@@ -137,11 +137,11 @@ a.text-a {
   font-style: italic;
   font-weight: 300;
   line-height: normal;
-  position: relative; /* Добавим позиционирование для корректного отображения фона */
+  position: relative; 
 }
 
 span#span-text {
-  position: relative; /* Добавим позиционирование для псевдоэлемента */
+  position: relative; 
 }
 
 span#span-text::before {
