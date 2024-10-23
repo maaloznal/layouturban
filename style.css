@@ -127,9 +127,9 @@ a.text-a {
 }
 
 .tea-description-text {
-  display: inline-block; 
-  padding: 9rem 28rem; 
-  width: 44rem; 
+  display: inline-block;
+  padding: 9rem 28rem;
+  width: 44rem;
   text-align: center;
   color: var(--Black, #151618);
   font-family: Cormorant;
@@ -137,23 +137,74 @@ a.text-a {
   font-style: italic;
   font-weight: 300;
   line-height: normal;
-  position: relative; 
+  position: relative;
 }
 
 span#span-text {
-  position: relative; 
+  position: relative;
 }
 
 span#span-text::before {
   content: "";
   position: absolute;
-  top: 0.1rem; 
-  left: -0.3rem; 
-  right: -0.5rem; 
+  top: 0.1rem;
+  left: -0.3rem;
+  right: -0.5rem;
   bottom: -0.5rem;
   background: var(--Light-Background, #f7f2ea);
   opacity: 0.5;
   z-index: -1;
   width: 22.4375rem;
   height: 3.8125rem;
+}
+
+.explorer-text {
+  margin-left: 98px;
+  margin-top: 6px;
+  color: var(--Black, #151618);
+  font-family: Cormorant;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.frames-wrap {
+  padding-top: 27px;
+  padding-right: 120px;
+  padding-left: 199px;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  justify-content: space-between;
+}
+
+.frames-1,
+.frames-2,
+.frames-3,
+.frames-4,
+.frames-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--Black, #151618);
+  font-family: Cormorant;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3.text-for-frame {
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.frames-1::before {
+  content: attr(text);
+}
+
+.frames-1:hover:before{
+  content:attr(hover-text)
 }
