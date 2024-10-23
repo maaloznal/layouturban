@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -201,10 +203,80 @@ h3.text-for-frame {
   margin-top: 7px;
 }
 
-.frames-1::before {
-  content: attr(text);
+section.testimonials {
+  padding-top: 147px;
+  text-align: center;
 }
 
-.frames-1:hover:before{
-  content:attr(hover-text)
+div.testimonials-text {
+  text-align: center;
+}
+
+.testimonials-text h2 {
+  padding-left: 98px;
+  color: var(--Black, #151618);
+  font-family: Cormorant;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+div.frame-116 {
+  width: auto;
+  padding-top: 11px;
+  padding-left: 90px;
+  text-align: left;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+.frame-112,
+.frame-113,
+.frame-114,
+.frame-115 {
+  padding-top: 18px;
+  width: 282px;
+  align-items: center;
+  gap: 11px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.text-review {
+  text-align: left;
+  color: var(--Black, #151618);
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.reviewer {
+  width: 17.5rem;
+  color: var(--Black, #151618);
+  width: 17.5rem;
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+span .reviewer {
+  width: 17.5rem;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.Rectangle-91 {
+  position: absolute;
+  width: 1600px;
+  height: 397px;
+  background-color: #f7f2ea;
+  z-index: -1;
 }
