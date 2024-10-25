@@ -63,14 +63,14 @@ body {
 }
 
 .navbar-menu li a {
-  font-size: 18px;
-  color: #333;
-  text-decoration: none;
-  padding: 33px;
-  padding-right: 30px;
-  display: flex;
-  height: 27px;
-  align-items: center;
+width: 59px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    padding: 27px;
+    display: flex;
+    height: 25px;
+    align-items: center;
 }
 
 a.text-a {
