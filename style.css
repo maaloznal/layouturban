@@ -378,6 +378,10 @@ section.blog-container {
   line-height: normal;
 }
 
+.frame-117 a{
+  text-decoration: none;
+}
+
 .nested-block-1 {
   margin-top: -6px;
   margin-bottom: 12px;
