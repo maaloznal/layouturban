@@ -114,34 +114,45 @@ a.text-a {
 }
 
 .image-section {
+  width: 1600px;
+  height: 500px;
   position: relative;
 }
 
-.back-image{
-  
+.background-header{
+  height: inherit;
+  width: inherit;
+  background: url(images/Rectangle75.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image-section-text{
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 12.5em;
+  margin-top: 6em;
 }
 
 .image-section .image-text-1 {
-  position: absolute;
-  top: 62%;
-  left: 39.3%;
-  transform: translate(-50%, -50%);
   width: 789.507px;
-  color: var(--White, #fff);
+  color: var(--White, #FFF);
   font-family: Cormorant;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%;
+  line-height: 100%; /* 60px */
 }
 
 .image-text-2 {
-  position: absolute;
-  top: 83.5%;
-  left: 31.7%;
-  transform: translate(-50%, -50%);
   width: 557.651px;
-  color: var(--White, #fff);
+  color: var(--White, #FFF);
+  /* H3 Title 24px Light */
   font-family: Cormorant;
   font-size: 24px;
   font-style: normal;
