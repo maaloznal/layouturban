@@ -392,15 +392,16 @@ section.blog-container {
 .frame-117 {
   margin-left: 10px;
   margin-top: -12px;
+
+}
+
+.frame-117 a {
   color: var(--Black, #151618);
   font-family: "Open Sans";
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-}
-
-.frame-117 a {
   text-decoration: none;
 }
 
@@ -884,3 +885,4 @@ li.basic-text-2 {
   margin-left: -17px;
   margin-top: -10px;
 }
+
