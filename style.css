@@ -2042,3 +2042,85 @@ li.basic-text-2 {
   margin-top: -157px;
 }
 }
+
+@media (max-width: 414px) {
+  .image-section {
+    margin-top: 10px;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+}
+
+.background-header {
+  height: inherit;
+  width: inherit;
+  background: url(images/Rectangle75.jpg) no-repeat;
+  position: static;
+}
+
+.image-section-text {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+section.blog-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: inherit;
+  height: 135vh;
+  margin: 75px 0 0 0;
+}
+
+section.more-information {
+  gap: 25px;
+  display: flex;
+  width: 116%;
+  height: 415px;
+  margin: 0px;
+  background: var(--Light-Background, #f7f2ea);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+p.more-information-text-block-2 {
+  color: var(--Black, #151618);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 100%;
+  position: static;
+}
+
+.email-input {
+  margin-left: 12px;
+  width: 100%;
+  height: auto;
+  position: static;
+}
+
+p.more-information-text-block-3 {
+  color: var(--Black, #151618);
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 100%;
+  height: 54px;
+  margin-left: 0;
+  margin-top: 0;
+  position: static;
+}
+}
