@@ -15,6 +15,12 @@
   <body>
     <nav class="navbar">
       <div class="container">
+        <div class="burger-button">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
         <div class="navbar-brand-container">
           <img src="icons/Group3.svg" alt="icon" class="navbar-brand-img" />
           <span class="navbar-brand-text">TealuxE</span>
@@ -36,7 +42,40 @@
           <img src="icons/icon.svg" alt="icon" class="navbar-button" />
         </div>
       </div>
-    </nav>
+    </nav>    
+    <div class="burger-menu-display">
+      <div class="burger-menu">
+        <div class="icon-wrap">
+          <img src="icons\close_menu.svg" alt="icon" id="close-menu" />
+        </div>
+        <div class="main-menu">
+          <div class="navbar-wrap-768">
+            <ul class="navbar-menu-768">
+              <li><a class="text-a" href="#">Black</a></li>
+              <li><a class="text-a" href="#">Green</a></li>
+              <li><a class="text-a" href="#">White</a></li>
+              <li><a class="text-a" href="#">Oolong</a></li>
+              <li><a class="text-a" href="#">Pu-erh</a></li>
+            </ul>
+          </div>
+          <div class="line-burger"></div>
+          <div class="burger-menu-footer">
+            <ul class="ul-brg-menu-foot">
+              <li><a class="footer-borger" href="#">Contact Us</a></li>
+              <li><a class="footer-borger" href="#">Our Blog</a></li>
+              <li>
+                <a class="footer-borger" href="#">Shipping and Delivery</a>
+              </li>
+            </ul>
+          </div>
+          <div class="burger-icon">
+            <img src="icons/icon(1).svg" alt="icon" />
+            <img src="icons/icon(2).svg" alt="icon" />
+            <img src="icons/icon.svg" alt="icon" />
+          </div>
+        </div>
+      </div>
+    </div>
     <header class="image-section">
       <div class="background-header">
         <div class="image-section-text">
@@ -130,7 +169,7 @@
           <div class="container-grid-block">
             <div class="block-item">
               <div class="nested-block-1">
-                <img src="images/Rectangle72.png" alt="img" />
+                <img id="images-blog-1" src="images/Rectangle72.png" alt="img" />
               </div>
               <div class="nested-block-2 group-1">
                 <div class="text-cont">
@@ -150,7 +189,7 @@
             </div>
             <div class="block-item">
               <div class="nested-block-1">
-                <img src="images/Rectangle72(2).png" alt="img" />
+                <img id="images-blog-2" src="images/Rectangle72(2).png" alt="img" />
               </div>
               <div class="nested-block-2 group-2">
                 <div class="text-cont">
@@ -168,7 +207,7 @@
             </div>
             <div class="block-item">
               <div class="nested-block-1">
-                <img src="images/Rectangle72(1).png" alt="img" />
+                <img id="images-blog-3" src="images/Rectangle72(1).png" alt="img" />
               </div>
               <div class="nested-block-2">
                 <div class="text-cont">
@@ -188,7 +227,7 @@
             </div>
             <div class="block-item">
               <div class="nested-block-1">
-                <img src="images/Rectangle72(3).png" alt="img" />
+                <img id="images-blog-4" src="images/Rectangle72(3).png" alt="img" />
               </div>
               <div class="nested-block-2">
                 <div class="text-cont">
@@ -354,5 +393,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
