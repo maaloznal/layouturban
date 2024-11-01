@@ -2219,3 +2219,114 @@ li.basic-text-2 {
     align-content: center;
   }
 }
+
+@media (max-width: 375.5px) {
+
+  .image-text-2 {
+    width: 100%;
+    color: var(--White, #fff);
+    font-family: Cormorant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+  section.blog-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 183vh;
+    margin: 75px 0 0 0;
+  }
+
+  section.testimonials {
+    width: 100%;
+    height: 37.25rem;
+    margin: 0;
+    text-align: center;
+    padding-top: 0vh;
+  }
+
+  div.frame-116 {
+    width: 100%;
+    height: 30.25rem;
+    padding: 0px 10px;
+    margin: 0px;
+    text-align: left;
+    display: flex;
+    gap: 21px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .testimonials-text h2 {
+    padding-left: 8px;
+    padding-top: 16px;
+    color: var(--Black, #151618);
+    font-family: Cormorant;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  div.frame-116 {
+    width: 100%;
+    height: 30.25rem;
+    padding: 0px 10px;
+    margin: 0px;
+    text-align: left;
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+
+  .frame-112,
+  .frame-113,
+  .frame-114,
+  .frame-115 {
+    padding-top: 41px;
+    width: 206px;
+    align-items: center;
+    gap: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .reviewer {
+    width: 17.5rem;
+    color: var(--Black, #151618);
+    width: 7.5rem;
+    font-family: "Open Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.blog-title-text {
+  width: 75%;
+  transform: translate(-50%, -50%);
+  left: 240px;
+  top: 5px;
+  position: absolute;
+  text-align: center;
+  color: var(--Black, #151618);
+  font-family: Cormorant;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+}
