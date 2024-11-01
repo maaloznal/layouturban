@@ -2043,7 +2043,7 @@ li.basic-text-2 {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 414.5px) {
   .image-section {
     margin-top: 10px;
     width: 100%;
@@ -2061,13 +2061,25 @@ li.basic-text-2 {
     margin: 0px 0px;
     flex-wrap: wrap;
     align-content: center;
-}
+  }
 
   .background-header {
     height: inherit;
     width: inherit;
     background: url(images/Rectangle75.jpg) no-repeat;
     position: static;
+    top: 0;
+    right: 0;
+  }
+
+  .image-section .image-text-1 {
+    width: 100%;
+    color: var(--White, #fff);
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 
   .image-section-text {
@@ -2079,7 +2091,7 @@ li.basic-text-2 {
     margin: 0;
     padding: 0;
     justify-content: center;
-}
+  }
 
   section.blog-container {
     display: flex;
@@ -2109,30 +2121,29 @@ li.basic-text-2 {
     margin: 0;
     text-align: center;
     padding-top: 0vh;
-}
+  }
 
-section.blog-container {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
-  height: 135vh;
-  margin: 75px 0 0 0;
-}
+  section.blog-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 135vh;
+    margin: 75px 0 0 0;
+  }
 
-section.more-information {
-  gap: 25px;
-  display: flex;
-  width: 100%;
-  height: 415px;
-  margin: 0px;
-  background: var(--Light-Background, #f7f2ea);
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-}
-
+  section.more-information {
+    gap: 25px;
+    display: flex;
+    width: 100%;
+    height: 415px;
+    margin: 0px;
+    background: var(--Light-Background, #f7f2ea);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
 
   p.more-information-text-block-2 {
     color: var(--Black, #151618);
@@ -2165,6 +2176,33 @@ section.more-information {
     margin-left: 0;
     margin-top: 0;
     position: static;
+  }
+
+  .text-cont {
+    width: 100%;
+    margin-left: 6px;
+  }
+
+  .Rectangle-91 {
+    display: flex;
+    width: 100%;
+    height: 37.25rem;
+    position: absolute;
+    opacity: 0.5;
+    background-color: rgba(247, 242, 234, 1);
+    z-index: -1;
+    flex-wrap: wrap;
+  }
+
+  .text-review {
+    width: 72%;
+    text-align: justify;
+    color: var(--Black, #151618);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
   }
 
   div.frame-116 {
