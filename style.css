@@ -82,16 +82,6 @@ body {
   align-items: center;
 }
 
-.navbar-menu li a {
-  width: 59px;
-  font-size: 18px;
-  color: #333;
-  text-decoration: none;
-  padding: 32px;
-  display: flex;
-  height: 25px;
-  align-items: center;
-}
 
 a.text-a {
   width: 50px;
@@ -593,6 +583,7 @@ section.more-information {
 }
 
 #button-join a {
+  color: var(--Black, #151618);
   cursor: pointer;
   text-decoration: none;
 }
