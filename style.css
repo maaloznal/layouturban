@@ -907,9 +907,9 @@ li.basic-text-2 {
     padding: 0;
   }
 
-  /* html{
+  html{
     overflow: auto;
-  } */
+  }
 
   .navbar {
     width: 100%;
@@ -1566,6 +1566,11 @@ li.basic-text-2 {
 }
 
 @media (max-width: 480px) {
+
+  html{
+    overflow: auto;
+  }
+
   .navbar {
     height: 55px;
     width: 100%;
@@ -2044,6 +2049,11 @@ li.basic-text-2 {
 }
 
 @media (max-width: 414.5px) {
+
+  html{
+    overflow: auto;
+  }
+
   .image-section {
     margin-top: 10px;
     width: 100%;
@@ -2221,6 +2231,11 @@ li.basic-text-2 {
 }
 
 @media (max-width: 375.5px) {
+
+  html{
+    overflow: auto;
+  }
+
 
   .image-text-2 {
     width: 100%;
